@@ -13,8 +13,8 @@
 |---|----------|--------|--------------|
 | 01 | Interfaces & Polymorphism | ✅ Complete | Implicit interfaces, method receivers |
 | 02 | Error Handling | ✅ Complete | Error types, wrapping, custom errors |
-| 03 | Goroutines & Channels | 🔄 In Progress | Concurrency, channel patterns |
-| 04 | Context & Cancellation | ⏳ Pending | Context propagation, timeouts |
+| 03 | Goroutines & Channels | ✅ Complete | Concurrency, channel patterns |
+| 04 | Context & Cancellation | 🔄 In Progress | Context propagation, timeouts |
 | 05 | Testing in Go | ⏳ Pending | Table-driven tests, mocking |
 
 ### Phase 2: Web Development (Week 3-4)
