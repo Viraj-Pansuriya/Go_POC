@@ -1,7 +1,6 @@
-go 1.21
+go 1.25.4
 
 use (
-	./projects/hello-world
+    ./projects/hello-world
+    ./projects/hello-world/exercises/06-http-server
 )
-
-

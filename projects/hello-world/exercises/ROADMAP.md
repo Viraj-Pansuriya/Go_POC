@@ -15,12 +15,12 @@
 | 02 | Error Handling | ✅ Complete | Error types, wrapping, custom errors |
 | 03 | Goroutines & Channels | ✅ Complete | Concurrency, channel patterns |
 | 04 | Context & Cancellation | ✅ Complete | Context propagation, timeouts |
-| 05 | Testing in Go | 🔄 In Progress | Table-driven tests, mocking |
+| 05 | Testing in Go | ✅ Complete | Table-driven tests, mocking |
 
 ### Phase 2: Web Development (Week 3-4)
 | # | Exercise | Status | Key Concepts |
 |---|----------|--------|--------------|
-| 06 | HTTP Server Basics | ⏳ Pending | net/http, handlers, middleware |
+| 06 | HTTP Server Basics | 🔄 In Progress | net/http, handlers, middleware |
 | 07 | REST API with Routing | ⏳ Pending | Chi/Gin router, JSON handling |
 | 08 | Dependency Injection | ⏳ Pending | Wire, manual DI (no Spring magic!) |
 | 09 | Configuration Management | ⏳ Pending | Viper, env files |
