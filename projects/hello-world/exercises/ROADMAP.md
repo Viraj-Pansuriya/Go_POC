@@ -20,9 +20,9 @@
 ### Phase 2: Web Development (Week 3-4)
 | # | Exercise | Status | Key Concepts |
 |---|----------|--------|--------------|
-| 06 | HTTP Server Basics | 🔄 In Progress | net/http, handlers, middleware |
-| 07 | REST API with Routing | ⏳ Pending | Chi/Gin router, JSON handling |
-| 08 | Dependency Injection | ⏳ Pending | Wire, manual DI (no Spring magic!) |
+| 06 | HTTP Server Basics | ✅ Complete | Gin, handlers, middleware |
+| 07 | Dependency Injection | 🔄 In Progress | Constructor DI, interfaces |
+| 08 | Configuration Management | ⏳ Pending | Viper, env files |
 | 09 | Configuration Management | ⏳ Pending | Viper, env files |
 | 10 | Logging & Observability | ⏳ Pending | Zap/Zerolog, structured logging |
 

@@ -9,7 +9,7 @@ import (
 
 type UserRepository interface {
 	FindById(id string) (*models.User, error)
-	AddUser(user models.User) (*models.User, error)
+	AddUser(user *models.User) (*models.User, error)
 	DeleteUser(id string) error
 }
 
@@ -28,7 +28,7 @@ func (ur *UserRepositoryImpl) FindById(id string) (*models.User, error) {
 	return usr, nil
 }
 
-func (ur *UserRepositoryImpl) AddUser(user models.User) (*models.User, error) {
+func (ur *UserRepositoryImpl) AddUser(user *models.User) (*models.User, error) {
 	_, ok := ur.users[user.ID]
 	if ok {
 		return nil, errors.New("UserRepositoryImpl AddUser() - user already exists")
@@ -55,6 +55,7 @@ func GetUserRepositoryInstance() UserRepository {
 		for _, usr := range initUsers {
 			users[usr.ID] = &usr
 		}
+		instance = &UserRepositoryImpl{users: users}
 	})
 	return instance
 }

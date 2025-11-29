@@ -3,4 +3,5 @@ go 1.25.4
 use (
     ./projects/hello-world
     ./projects/hello-world/exercises/06-http-server
+    ./projects/hello-world/exercises/07-dependency-injection
 )
