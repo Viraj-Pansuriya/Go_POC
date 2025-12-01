@@ -21,8 +21,8 @@
 | # | Exercise | Status | Key Concepts |
 |---|----------|--------|--------------|
 | 06 | HTTP Server Basics | ✅ Complete | Gin, handlers, middleware |
-| 07 | Dependency Injection | 🔄 In Progress | Constructor DI, interfaces |
-| 08 | Configuration Management | ⏳ Pending | Viper, env files |
+| 07 | Dependency Injection | ✅ Complete | Constructor DI, interfaces |
+| 08 | Database Integration | 🔄 In Progress | GORM, SQLite |
 | 09 | Configuration Management | ⏳ Pending | Viper, env files |
 | 10 | Logging & Observability | ⏳ Pending | Zap/Zerolog, structured logging |
 
