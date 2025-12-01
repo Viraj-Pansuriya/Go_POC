@@ -214,8 +214,6 @@ func (r *enrollmentRepository) GetAverageGradeForCourse(courseID uint) (float64,
 	var result struct {
 		Average float64
 	}
-
-	r.db.WithContext()
 	// Raw SQL for complex calculations
 	// GORM supports raw queries when the query builder isn't sufficient
 	err := r.db.Raw(`
