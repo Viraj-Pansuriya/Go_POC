@@ -938,3 +938,8 @@ func (a *Auditable) BeforeUpdate(tx *gorm.DB) error {
 ```
 
 
+
+
+
+
+

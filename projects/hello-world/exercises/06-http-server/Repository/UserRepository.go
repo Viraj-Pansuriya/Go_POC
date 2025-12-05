@@ -33,8 +33,8 @@ func (ur *UserRepositoryImpl) AddUser(user *models.User) (*models.User, error) {
 	if ok {
 		return nil, errors.New("UserRepositoryImpl AddUser() - user already exists")
 	}
-	ur.users[user.ID] = &user
-	return &user, nil
+	ur.users[user.ID] = user
+	return user, nil
 }
 
 func (ur *UserRepositoryImpl) DeleteUser(id string) error {

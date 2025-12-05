@@ -1,8 +1,10 @@
 go 1.25.4
 
 use (
-    ./projects/hello-world
-    ./projects/hello-world/exercises/06-http-server
-    ./projects/hello-world/exercises/07-dependency-injection
-    ./projects/hello-world/exercises/08-database-integration
+	./projects/hello-world
+	./projects/hello-world/exercises/06-http-server
+	./projects/hello-world/exercises/07-dependency-injection
+	./projects/hello-world/exercises/08-database-integration
+	./projects/hello-world/exercises/09-middleware-auth
+	./projects/hello-world/exercises/10-configuration-management
 )

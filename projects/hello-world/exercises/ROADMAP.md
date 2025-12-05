@@ -22,9 +22,10 @@
 |---|----------|--------|--------------|
 | 06 | HTTP Server Basics | ✅ Complete | Gin, handlers, middleware |
 | 07 | Dependency Injection | ✅ Complete | Constructor DI, interfaces |
-| 08 | Database Integration | 🔄 In Progress | GORM, SQLite |
-| 09 | Configuration Management | ⏳ Pending | Viper, env files |
-| 10 | Logging & Observability | ⏳ Pending | Zap/Zerolog, structured logging |
+| 08 | Database Integration | 🅿️ Parked | GORM, SQLite, relationships |
+| 09 | Middleware & Authentication | ✅ Complete | JWT, Auth middleware, RBAC |
+| 10 | Configuration Management | 🔄 In Progress | Viper, env files |
+| 11 | Logging & Observability | ⏳ Pending | Zap/Zerolog, structured logging |
 
 ### Phase 3: Data Layer (Week 5-6)
 | # | Exercise | Status | Key Concepts |

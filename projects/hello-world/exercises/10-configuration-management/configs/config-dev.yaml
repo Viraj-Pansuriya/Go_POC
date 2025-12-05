@@ -1,0 +1,11 @@
+# Development environment overrides
+server:
+  port: 3000  # Different port for dev
+
+database:
+  host: localhost
+  dbname: myapp_dev
+
+app:
+  debug: true  # Enable debug mode in dev
+

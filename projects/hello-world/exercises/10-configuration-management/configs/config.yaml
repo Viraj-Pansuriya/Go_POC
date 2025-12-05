@@ -1,0 +1,25 @@
+# Base configuration - shared across all environments
+server:
+  host: "0.0.0.0"
+  port: 8080
+  read_timeout: 30
+  write_timeout: 30
+
+database:
+  driver: postgres
+  host: localhost
+  port: 5432
+  user: app
+  password: ""  # Override via env: DATABASE_PASSWORD
+  dbname: myapp
+  sslmode: disable
+
+jwt:
+  secret: ""    # Override via env: JWT_SECRET (required!)
+  expiration: 24  # hours
+
+app:
+  name: "Go Config Demo"
+  version: "1.0.0"
+  debug: false
+
