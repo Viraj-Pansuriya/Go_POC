@@ -97,4 +97,3 @@ func printConfig(cfg *config.Config) {
 	fmt.Printf("🐛 Debug: %v\n", cfg.App.Debug)
 	fmt.Println("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 }
-

@@ -1,0 +1,14 @@
+# Application configuration
+server:
+  host: "0.0.0.0"
+  port: 8080
+
+log:
+  level: debug        # debug, info, warn, error
+  format: console     # json, console
+  development: true   # Enables colored output, human-readable
+
+app:
+  name: "Logging Demo"
+  version: "1.0.0"
+
