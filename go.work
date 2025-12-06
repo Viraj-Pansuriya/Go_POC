@@ -7,4 +7,5 @@ use (
 	./projects/hello-world/exercises/08-database-integration
 	./projects/hello-world/exercises/09-middleware-auth
 	./projects/hello-world/exercises/10-configuration-management
+	./projects/hello-world/exercises/11-logging-observability
 )
